@@ -5,7 +5,7 @@ baseurl:
 url: https://phanremy.github.io
 date_format: "ordinal"
 title: "Phan Remy"
-subtitle: "Devboy"
+subtitle: "Ma vie sur Rails"
 description: ""
 keywords: phan, remy, ruby, rails, developer
 timezone: Europe/Paris
@@ -23,15 +23,15 @@ components:
     # Partage
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: false
-        hide-platforms: qq,facebook
+        enabled: true
+        hide-platforms: weibo,qq,wechat,douban,qzone
     # Statistiques de visites Busuanzi
     busuanzi:
         enabled: false
         start_date: 2020-05-03
-    # Mes dépôts populaires
+    # Mes repo populaires
     side_bar_repo:
-        enabled: true
+        enabled: false
         limit: 5
     # Statistiques du nombre de mots des articles
     word_count:

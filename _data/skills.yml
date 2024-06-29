@@ -1,19 +1,12 @@
-- name: Software Engineer Keywords
+- name: Programmeur
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - Ruby on Rails
 
-- name: Mobile Developer Keywords
+- name: Entrepreneur
   keywords:
-      - Android
-      - Reverse Engineering
+      - Microentrepreneuriat
 
-- name: Windows Developer Keywords
+- name: Hobbies
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Football
+      - Politique

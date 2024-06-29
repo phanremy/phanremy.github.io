@@ -27,7 +27,8 @@ layout: default
           {% if site.components.word_count.enabled %}
           <span class="meta-info">
             <span class="octicon octicon-clock"></span>
-            共 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字，约 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
+            <!-- Temps de lecture estimé :  -->
+            {{ page.content | strip_html | strip_newlines | remove: " " | size }} caractères, soit environ {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} minute(s).
           </span>
           {% endif %}
         </div>
@@ -48,11 +49,11 @@ layout: default
     {% include content-header-ad.html %}
     <article class="article-content markdown-body">
     {{ content }}
-    {% include copyright.html %}
-    </article>
+  </article>
     <div class="share">
       {% include sns-share.html %}
     </div>
+    {% include copyright.html %}
     {% include content-footer-ad.html %}
     <div class="comment">
       {% include comments.html %}
