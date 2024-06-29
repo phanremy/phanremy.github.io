@@ -1,15 +1,15 @@
 ---
 layout: wiki
 title: Wiki
-description: 人越学越觉得自己无知
-keywords: 维基, Wiki
+description: Plus on apprend, plus on se rend compte de son ignorance
+keywords: Wiki
 comments: false
 copyright: false
-menu: 维基
+menu: Wiki
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> Combien de commandes et de raccourcis peut-on mémoriser avant que notre tête n'explose ?
 
 {% case site.components.wiki.view %}
 

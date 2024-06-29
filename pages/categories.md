@@ -1,10 +1,10 @@
 ---
 layout: categories
-title: Categories
-description: 哈哈，你找到了我的文章基因库
-keywords: 分类
+title: Catégories
+description: Haha, vous avez trouvé mon génome d'articles
+keywords: Catégories
 comments: false
-menu: 分类
+menu: Catégories
 permalink: /categories/
 ---
 

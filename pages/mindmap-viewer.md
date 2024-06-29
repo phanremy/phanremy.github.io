@@ -1,7 +1,7 @@
 ---
 layout: mindmap
-title: mindmap
+title: Mindmap
 keywords: mindmap
-description: 全屏查看脑图
+description: Visualiser la carte mentale en plein écran
 permalink: /mindmap-viewer/
 ---

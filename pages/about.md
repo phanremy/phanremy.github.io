@@ -1,20 +1,20 @@
 ---
 layout: page
-title: About
-description: 打码改变世界
+title: À propos
+description: Le codage change le monde
 keywords: Zhuang Ma, 马壮
 comments: true
-menu: 关于
+menu: À propos
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+Je suis Zhuang Ma, né pour coder, codant pour vivre.
 
-仰慕「优雅编码的艺术」。
+Admirateur de « L'art du code élégant ».
 
-坚信熟能生巧，努力改变人生。
+Je crois fermement que la pratique rend parfait et que l'effort change la vie.
 
-## 联系
+## Contact
 
 <ul>
 {% for website in site.data.social %}
@@ -22,14 +22,13 @@ permalink: /about/
 {% endfor %}
 {% if site.url contains 'mazhuang.org' %}
 <li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
+Compte WeChat officiel：<br />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="Programmeur introverti" />
 </li>
 {% endif %}
 </ul>
 
-
-## Skill Keywords
+## Mots-clés des compétences
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}
