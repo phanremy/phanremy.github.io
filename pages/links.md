@@ -16,11 +16,8 @@ permalink: /links/
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
-</ul>
-
-> Liens d'amitié
-
-<ul>
+<!-- </ul>
+<ul> -->
 {% for link in site.data.links %}
   {% if link.src == 'www' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>

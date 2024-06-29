@@ -4,7 +4,7 @@
 baseurl:
 url: https://phanremy.github.io
 date_format: "ordinal"
-title: "Phan Remy"
+title: "phanremy"
 subtitle: "Ma vie sur Rails"
 description: ""
 keywords: phan, remy, ruby, rails, developer
@@ -57,7 +57,7 @@ highlight_theme: github
 # ---------------- #
 #      Auteur      #
 # ---------------- #
-author: Remy Phan
+author: phanremy
 organization:
 organization_url:
 github_username: phanremy

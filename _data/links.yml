@@ -1,11 +1,19 @@
-- name: Farha Farooque - Illustration & picturebooks
+- name: Farha Farooque - Illustration & picturebooks <3
   url: https://www.farhafarooque.com/
   src: life
 
-- name: Séance de Rattrapage - Podcast entre amis
+- name: Séance de Rattrapage - Podcast entre amis (dont moi !)
   url: https://open.spotify.com/show/2YMjscaz3vDc4UVoReEnyl
   src: life
 
 - name: Traff Fiction - Réflexion sur la narration
   url: https://www.youtube.com/@trafffiction8301/videos
+  src: www
+
+- name: bluuured - Un photographeur basé à Taïwan
+  url: https://www.instagram.com/bluuured/
+  src: www
+
+- name: Ayaz Abdul Cader - Un entrepreneur à la cool (je le copie beaucoup)
+  url: https://ayaz-ac.github.io/
   src: www
