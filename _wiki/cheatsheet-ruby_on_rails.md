@@ -1,10 +1,10 @@
 ---
 layout: wiki
 title: Cheat sheet - Ruby on Rails
-cate1: Ruby on Rails
+cate1: Cheat sheets
 cate2:
 description: Papier de triche, aka cheat sheet, pour retrouver la mémoire
-keywords: Ruby on Rails
+keywords: Code, Ruby on Rails
 ---
 
 ## How to search in a jsonb attribute with keys and values of hash using PG
@@ -14,20 +14,6 @@ https://www.postgresql.org/docs/12/functions-json.html
 ```jsx
 Post.where("hash_details->'array_details'->0 = '?'", id)
     .where("hash_details->>'text_details' = ?", title)
-```
-
-## How to test the repeatability of a test
-
-```jsx
-for i in {1..100}; do echo "*** Run $i ***"; rails test test-path.rb || break; done;
-```
-
-## How to get just one file from another branch?
-
-you are on a different branch than `main` and you want to retrieve a file (ie. structure.sql) from `main`
-
-```jsx
-git checkout main path/to/structure.sql
 ```
 
 ## How to use `delegate_missing_to`
@@ -161,20 +147,6 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
 end
 ```
 
-```arduino
-heroku pg:psql -a thepackengersapp-staging
-
-> CREATE INDEX index_regulations ON public.regulations USING btree (rule_id, value);
-> DROP INDEX index_regulations;
-
-```
-
-## Delete branch locally which are deleted remotely
-
-```arduino
-git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == "[gone]" {sub("refs/heads/", "", $1); print $1}'); do git branch -D $branch; done
-```
-
 ## How to search in a JSON in SQL
 
 ```ruby
@@ -184,32 +156,4 @@ GoodJob::Job.where("serialized_params->'arguments'->0 = '?'", id)
 irb(main):010:0> GoodJob::Job.last.serialized_params
 => {"arguments"=>[nil, 42],
     "job_class"=>"NameJob"}
-```
-
-## Kill Heroku connections
-
-```
-heroku pg:killall -r heroku-staging
-heroku run rails db:migrate -r heroku-staging
-heroku run rails deploy -r heroku-staging
-heroku restart -r heroku-staging
-```
-
-Et la commande pour avoir la liste des connexions ) la DB :
-
-```
-heroku pg:psql -c 'select usename, application_name, backend_start, query, wait_event, backend_type from pg_stat_activity;' -r heroku-staging
-```
-
-## Play with zshrc
-
-```jsx
-code /Users/phanremy/.zshrc
-source ~/.zshrc
-
-code ~/.zshrc
-source ~/.zshrc
-code ~/.aliases
-source ~/.aliases
-refresh_db
 ```
