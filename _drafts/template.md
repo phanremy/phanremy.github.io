@@ -1,15 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
+title: Du post
+categories: [Life, Code]
+description: pour décrire le post
+keywords: Life, Code
 ---
 
-Content here
+Contenu ici

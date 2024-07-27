@@ -1,15 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
+title: Du Code Propre
+categories: Code
+description: Sans Smells
+keywords: Code
 ---
 
 "Clean Code: A Handbook of Agile Software Craftsmanship" de Robert C. Martin, souvent appelé Uncle Bob, est un ouvrage de référence en ingénierie logicielle. Il met l'accent sur l'importance d'écrire un code propre, maintenable et efficace. Voici les principaux points à retenir du livre :
@@ -44,7 +38,7 @@ Dites, Ne Demandez Pas : Les objets doivent dire aux autres objets quoi faire, p
 Tests Automatisés : Écrivez des tests automatisés pour garantir la correction du code.
 Couverture des Tests : Visez une couverture de test élevée pour couvrir divers cas limites et scénarios.
 Tests Lisibles : Les tests doivent être aussi lisibles et maintenables que le code qu'ils testent.
-9. Mauvaises Odeurs de Code
+9. Mauvaises Odeurs de Code (ou Code Smells)
 Reconnaître et Refactoriser : Apprenez à reconnaître les mauvaises odeurs de code (mauvais motifs de code) et à les refactoriser pour améliorer la qualité du code.
 Amélioration Continue : Refactorisez régulièrement le code pour le garder propre et maintenable.
 10. Pratiques Agiles
