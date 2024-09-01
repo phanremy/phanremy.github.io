@@ -4,8 +4,8 @@
 baseurl:
 url: https://phanremy.github.io
 date_format: "ordinal"
-title: "phanremy"
-subtitle: "Ma vie sur Rails"
+title: ""
+subtitle: "Ma vie on Rails"
 description: ""
 keywords: phan, remy, ruby, rails, developer
 timezone: Europe/Paris

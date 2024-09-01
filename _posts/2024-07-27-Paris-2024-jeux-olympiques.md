@@ -10,4 +10,6 @@ C'est le début des Jeux Olympiques en France. Et qui dit début, dit cérémoni
 
 Quelle fierté, quel bonheur. Bravo à Thomas Jolly et à toute l'organisation. Bon courage aux athlètes et beau jeu !
 
-Apparemment, la création sème la création. À nous de jouer !
+Il parait que la création sème la création. À nous de jouer !
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/onP5-DKSbI4?si=ythhTEqmLy2c0MdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
